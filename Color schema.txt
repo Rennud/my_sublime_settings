@@ -4,10 +4,11 @@
 	{
 		
 		"fung_args": "hsl(0, 0%, 60%)",
-		"func_call": "hsl(98, 70%, 40%)",
 		"func_class": "hsl(210, 90%, 50%)",
         "fung_args": "hsl(332, 24%, 57%)",
-        "my_yellow": "hsl(52, 86%, 60%)"
+        "my_yellow": "hsl(52, 86%, 60%)",
+        "string": "hsl(134, 100%, 20%)",
+        "boolean": "hsl(169, 69%, 28%)"
     },
 	"globals":
 	{
@@ -17,22 +18,22 @@
 		{
 		   "name": "Built-in constant",
 	       "scope": "constant.language",
-	       "foreground": "var(blue)"
+	       "foreground": "var(boolean)"
 		},
 		{
 		   "name": "String",
            "scope": "string",
-	       "foreground": "var(orange)"
+	       "foreground": "var(string)"
 		},
 		{
 		   "name": "Keyword",
             "scope": "keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word, source.ruby keyword.declaration",
-	       "foreground": "var(red)"
+	       "foreground": "var(orange)"
 		},
 		{
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "var(func_call)"
+            "foreground": "var(my_yellow)"
         },
         {
             "name": "Library function",
