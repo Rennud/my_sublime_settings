@@ -1,0 +1,8 @@
+AutoPEP8
+BracketHighlighter
+Dayle Rees Color Schemes
+Emmet
+Git
+Package Control
+SideBarEnhancements
+Tabnine

@@ -1,0 +1,5 @@
+[
+	{ "keys" : ["ctrl+alt+c"], "command": "cancel_build"},
+	{ "keys": ["ctrl+k"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+u"], "command": "toggle_comment", "args": { "block": true } }
+]

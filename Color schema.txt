@@ -1,0 +1,60 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+		
+		"fung_args": "hsl(0, 0%, 60%)",
+		"func_call": "hsl(98, 70%, 40%)",
+		"func_class": "hsl(210, 90%, 50%)",
+        "fung_args": "hsl(332, 24%, 57%)",
+        "my_yellow": "hsl(52, 86%, 60%)"
+    },
+	"globals":
+	{
+	},
+	"rules":
+	[
+		{
+		   "name": "Built-in constant",
+	       "scope": "constant.language",
+	       "foreground": "var(blue)"
+		},
+		{
+		   "name": "String",
+           "scope": "string",
+	       "foreground": "var(orange)"
+		},
+		{
+		   "name": "Keyword",
+            "scope": "keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word, source.ruby keyword.declaration",
+	       "foreground": "var(red)"
+		},
+		{
+            "name": "Function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(func_call)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function, support.macro",
+            "foreground": "var(orange3)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(func_class)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Entity name",
+            "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(my_yellow)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter - (source.c | source.c++ | source.objc | source.objc++)",
+            "foreground": "var(fung_args)",
+            "font_style": "italic"
+        },
+	]
+}
